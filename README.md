@@ -7,6 +7,7 @@ Once the image is installed load the Pi up and execute the following commands to
 	sudo apt-get install -y nodejs 
 	sudo apt-get install -y build-essential
 	sudo apt-get install mysql-server --fix-missing
+	sudo mysql_secure_installation
 	git clone https://github.com/moxy37/NodePiAlpha.git alpha
 	cd alpha
 	sudo mysql -u root -proot
